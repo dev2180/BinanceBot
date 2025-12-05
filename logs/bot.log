@@ -1,0 +1,49 @@
+2025-12-05 17:15:05,303 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:15:42,144 | INFO | exchange.binance_client | Placing LIMIT order | Symbol=BTCUSDT Side=BUY Qty=0.0001 Price=50000.0
+2025-12-05 17:15:42,316 | INFO | exchange.binance_client | Limit order response: {'symbol': 'BTCUSDT', 'orderId': 7108840, 'orderListId': -1, 'clientOrderId': 'x-HNA2TXFJcb67c9e0cb4a89aab354', 'transactTime': 1764935142951, 'price': '50000.00000000', 'origQty': '0.00010000', 'executedQty': '0.00000000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'NEW', 'timeInForce': 'GTC', 'type': 'LIMIT', 'side': 'BUY', 'workingTime': 1764935142951, 'fills': [], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+2025-12-05 17:21:34,009 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:22:11,165 | INFO | exchange.binance_client | Placing STOP-LIMIT order | Symbol=BTCUSDT Side=SELL Qty=0.001 Price=79000.0 StopPrice=80000.0
+2025-12-05 17:22:11,619 | INFO | exchange.binance_client | Stop-Limit order response: {'symbol': 'BTCUSDT', 'orderId': 7110219, 'orderListId': -1, 'clientOrderId': 'x-HNA2TXFJc2dc028f90abed3081a5de', 'transactTime': 1764935532266}
+2025-12-05 17:25:34,338 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:25:57,372 | INFO | exchange.binance_client | Placing STOP-LIMIT order | Symbol=BTCUSDT Side=SELL Qty=0.001 Price=79000.0 StopPrice=80000.0
+2025-12-05 17:25:57,536 | INFO | exchange.binance_client | Stop-Limit order response: {'symbol': 'BTCUSDT', 'orderId': 7110764, 'orderListId': -1, 'clientOrderId': 'x-HNA2TXFJf83393df097840446cf7a', 'transactTime': 1764935758185}
+2025-12-05 17:25:57,701 | INFO | exchange.binance_client | Fetched order by ID 7110764: {'symbol': 'BTCUSDT', 'orderId': 7110764, 'orderListId': -1, 'clientOrderId': 'x-HNA2TXFJf83393df097840446cf7a', 'price': '79000.00000000', 'origQty': '0.00100000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'NEW', 'timeInForce': 'GTC', 'type': 'STOP_LOSS_LIMIT', 'side': 'SELL', 'stopPrice': '80000.00000000', 'icebergQty': '0.00000000', 'time': 1764935758185, 'updateTime': 1764935758185, 'isWorking': False, 'workingTime': -1, 'origQuoteOrderQty': '0.00000000', 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+2025-12-05 17:29:09,768 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:29:18,858 | INFO | exchange.binance_client | Fetched balances
+2025-12-05 17:31:03,959 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:31:07,363 | INFO | exchange.binance_client | Fetched balances
+2025-12-05 17:31:57,499 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:31:58,841 | INFO | exchange.binance_client | Fetched balances
+2025-12-05 17:33:00,250 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:33:02,300 | INFO | exchange.binance_client | Fetched balances
+2025-12-05 17:34:04,797 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:34:06,478 | INFO | exchange.binance_client | Fetched balances
+2025-12-05 17:34:53,345 | INFO | exchange.binance_client | Fetched open orders
+2025-12-05 17:35:21,122 | INFO | exchange.binance_client | Cancelling order 7110219 on BTCUSDT
+2025-12-05 17:35:21,287 | INFO | exchange.binance_client | Cancel response: {'symbol': 'BTCUSDT', 'origClientOrderId': 'x-HNA2TXFJc2dc028f90abed3081a5de', 'orderId': 7110219, 'orderListId': -1, 'clientOrderId': 'mmXSGVor64hauJXTODDYOY', 'transactTime': 1764936321945, 'price': '79000.00000000', 'origQty': '0.00100000', 'executedQty': '0.00000000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'STOP_LOSS_LIMIT', 'side': 'SELL', 'stopPrice': '80000.00000000', 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+2025-12-05 17:35:57,432 | INFO | exchange.binance_client | Fetched open orders
+2025-12-05 17:38:50,309 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:39:11,543 | INFO | exchange.binance_client | Fetched filters for BTCUSDT
+2025-12-05 17:39:48,577 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:40:11,716 | INFO | exchange.binance_client | Fetched filters for BTCUSDT
+2025-12-05 17:40:11,720 | INFO | exchange.binance_client | Placing MARKET order | Symbol=BTCUSDT Side=BUY Qty=0.0001
+2025-12-05 17:40:11,884 | INFO | exchange.binance_client | Market order response: {'symbol': 'BTCUSDT', 'orderId': 7113474, 'orderListId': -1, 'clientOrderId': 'x-HNA2TXFJ73f373d7411ee0de3d0e5e', 'transactTime': 1764936612548, 'price': '0.00000000', 'origQty': '0.00010000', 'executedQty': '0.00010000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '9.13955500', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'workingTime': 1764936612548, 'fills': [{'price': '91395.55000000', 'qty': '0.00010000', 'commission': '0.00000000', 'commissionAsset': 'BTC', 'tradeId': 2785509}], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+2025-12-05 17:59:09,055 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 17:59:12,729 | INFO | exchange.binance_client | Fetched balances
+2025-12-05 17:59:34,350 | ERROR | exchange.binance_client | Error fetching open orders: APIError(code=-1121): Invalid symbol.
+Traceback (most recent call last):
+  File "C:\Users\devsr\OneDrive\Desktop\exp\trading_bot\exchange\binance_client.py", line 203, in get_open_orders
+    orders = self.client.get_open_orders(symbol=symbol)
+  File "C:\Users\devsr\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 2171, in get_open_orders
+    return self._get("openOrders", True, data=params)
+  File "C:\Users\devsr\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 185, in _get
+    return self._request_api("get", path, signed, version, **kwargs)
+  File "C:\Users\devsr\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 119, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\devsr\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 91, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\devsr\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 100, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1121): Invalid symbol.
+2025-12-05 18:06:54,950 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
+2025-12-05 18:11:54,055 | INFO | exchange.binance_client | BinanceExchangeClient initialized (testnet=True)
